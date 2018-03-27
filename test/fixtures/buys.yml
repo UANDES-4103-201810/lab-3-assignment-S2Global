@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  users: one
+  ticket_type: one
+  time: 2018-03-27 12:43:48
+  buy: false
+
+two:
+  users: two
+  ticket_type: two
+  time: 2018-03-27 12:43:48
+  buy: false
