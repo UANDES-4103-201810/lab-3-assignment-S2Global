@@ -38,19 +38,19 @@ users = User.create([
 									password: 'imlookingood',
 									address: 'The Snuggly Duckling' }])
 
-places.create([{ name: 'Maddison Square Garden',
+places = Place.create([{ name: 'Maddison Square Garden',
                   address: '33 5th Street, NY',
                   capacity: '100000'}])
 
-events.create([{ :name => 'Telletubies Marathon',
+events = Event.create([{ :name => 'Telletubies Marathon',
                  :description => '50 hours of fun...',
-                 :start_date => 3/3/3000,
-                 :place => place},
+                 :sstart_date => 3/3/3000,
+                 :place => places[0]},
                { :name => 'Wii Golf Tournament',
                  :description => 'Fast pace Miis competing for the greatest honour.',
-                 :start_date => 5/5/2018,
-                 :place => place},
+                 :sstart_date => 5/5/2018,
+                 :place => places[0]},
                { :name => 'Plato vs the Lions',
                  :description => 'Can Plato use his big brain to survive against 2 hungry lions?',
-                 :start_date => 5/8/215,
-                 :place => place}])
+                 :sstart_date => 5/8/215,
+                 :place => places[0]}])
